@@ -1,0 +1,19 @@
+ul{
+	margin-buttom: 20px;
+}
+
+.error_msg{
+	color: red;
+}
+
+%inline_block{
+	display: inline-block;
+}
+
+.field_with_errors{
+	@extend %inline_block;
+	input {
+		border-color: red;
+	}
+
+}
